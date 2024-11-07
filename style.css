@@ -542,7 +542,6 @@ body.modal--open{
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
     transition: all 300ms ease;
     margin: 0 0 50px 0;
-    max-width: fit-content;
 }
 
 .project__description{
@@ -595,6 +594,12 @@ body.modal--open{
 
 .project__description--para{
     margin: 16px 0;
+}
+
+.project__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project__link{
